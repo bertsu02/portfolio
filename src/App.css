@@ -214,7 +214,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner .intro {
-  text-shadow: 1px 1px #121212;
   flex: 1;
 }
 .banner .intro__name {
