@@ -214,7 +214,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner .intro {
-  text-shadow: 1px 0px #121212;
+  text-shadow: 1px 1px #121212;
   flex: 1;
 }
 .banner .intro__name {
@@ -222,7 +222,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner .koi {
   flex: 1;
-  max-width: 100%;
+  max-width: 120%;
   height: auto;
 }
 @media (max-width: 600px) {
