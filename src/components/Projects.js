@@ -1,7 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import metlanding from "../assets/img/MET-landing.png";
 import todo from "../assets/img/todo.png";
-import projImg3 from "../assets/img/project-img3.png";
 import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
@@ -18,26 +17,26 @@ export const Projects = () => {
             imgUrl: todo,
             url: "https://bertsu02.github.io/todo/",
         },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
-        },
+        // {
+        //     title: "Business Startup",
+        //     description: "Design & Development",
+        //     imgUrl: projImg3,
+        // },
+        // {
+        //     title: "Business Startup",
+        //     description: "Design & Development",
+        //     imgUrl: projImg3,
+        // },
+        // {
+        //     title: "Business Startup",
+        //     description: "Design & Development",
+        //     imgUrl: projImg3,
+        // },
+        // {
+        //     title: "Business Startup",
+        //     description: "Design & Development",
+        //     imgUrl: projImg3,
+        // },
     ];
 
     return (
@@ -46,18 +45,18 @@ export const Projects = () => {
                 <Row>
                     <Col>
                         <h2>Projects</h2>
-                        <p> Projects that I have done, I hope to expand this!</p>
+                        <p> Projects that I have done, I hope to expand this with your help!</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             <Nav.Item>
                                 <Nav.Link eventKey="first">Tab 1</Nav.Link>
                             </Nav.Item>
-                            <Nav.Item>
+                            {/* <Nav.Item>
                                 <Nav.Link eventKey="second">Tab 2</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                            </Nav.Item>
+                            </Nav.Item> */}
                         </Nav>
                         <Tab.Content>
                             <Tab.Pane eventKey="first">
