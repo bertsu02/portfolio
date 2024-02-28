@@ -2,7 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import metlanding from "../assets/img/MET-landing.png";
 import todo from "../assets/img/todo.png";
 import { ProjectCard } from "./ProjectCard";
-
+import gadgets from "../assets/img/nice-gadgets.png";
 export const Projects = () => {
     const projects = [
         {
@@ -17,11 +17,12 @@ export const Projects = () => {
             imgUrl: todo,
             url: "https://bertsu02.github.io/todo/",
         },
-        // {
-        //     title: "Business Startup",
-        //     description: "Design & Development",
-        //     imgUrl: projImg3,
-        // },
+        {
+            title: "Nice Gadgets",
+            description: "Made in React,SCSS,zustand and express",
+            imgUrl: gadgets,
+            url:"https://pl-fe-sep23-reactivation.github.io/product-catalog/",
+        },
         // {
         //     title: "Business Startup",
         //     description: "Design & Development",
