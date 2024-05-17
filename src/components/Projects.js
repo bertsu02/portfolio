@@ -1,6 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import metlanding from "../assets/img/MET-landing.png";
 import todo from "../assets/img/todo.png";
+import romex from "../assets/img/romex.png";
+import kevin from "../assets/img/kevin.png";
 import { ProjectCard } from "./ProjectCard";
 import gadgets from "../assets/img/nice-gadgets.png";
 export const Projects = () => {
@@ -22,6 +24,18 @@ export const Projects = () => {
             description: "Made in React,SCSS,zustand and express",
             imgUrl: gadgets,
             url:"https://pl-fe-sep23-reactivation.github.io/product-catalog/",
+        },
+        {
+            title: "Romex Landing Page",
+            description: "Wordpress Landing Page",
+            imgUrl: romex,
+            url:"http://romex-asenizacja.pl/",
+        },
+        {
+            title: "Streamer tools",
+            description: "Made in HTML,CSS,JS",
+            imgUrl: kevin,
+            url:"https://kevin-tools.vercel.app/",
         },
         // {
         //     title: "Business Startup",
